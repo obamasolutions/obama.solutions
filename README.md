@@ -28,7 +28,5 @@ All source code here is licensed under the [YMGv2](https://github.com/citizensix
 ### credits
 
 We're like 2 people but I guess attribution is cool:
-
-[@nicoleaoki](https://github.com/nicoleaoki) for having the idea and making to begin with.
-
-[@suborbitalrat](https://github.com/suborbitalrat) for fucking up my commits and registering the obama.solutions domain.
+- [@nicoleaoki](https://github.com/nicoleaoki) for having the idea and making to begin with.
+- [@suborbitalrat](https://github.com/suborbitalrat) for fucking up my commits and registering the obama.solutions domain.
