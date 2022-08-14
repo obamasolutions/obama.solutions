@@ -15,7 +15,7 @@ We tried to rip off [uwu.network](https://uwu.network) but it didn't really work
 
 All source code is stored in `src/`, you kinda just drop this folder in your `www/` folder on your webserver thing, and also make sure to copy `ast/` over inside `src/` when doing so.
 
-As for based-ssg stuff I honestly have no fucking idea that's dealt with by Cam.
+As for based-ssg stuff I honestly have no fucking idea that's dealt with by suborbital.
 
 ### credits
 
