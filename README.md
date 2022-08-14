@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="ast/obamaReadme.gif" alt="Look at this handsome man, how he spins after being painfully tortured and turned into a prism! (also fuck you, let me load a 318k gif of Hi-Res Obama Prism spinning)">
+	<img src="src/ast/obamaReadme.gif" alt="Look at this handsome man, how he spins after being painfully tortured and turned into a prism! (also fuck you, let me load a 318k gif of Hi-Res Obama Prism spinning)">
 	<h1><a href="https://obama.solutions">obama.solutions</a></h1>
 </div>
 
@@ -13,7 +13,7 @@ Also, we practically tried to rip off [uwu.network](https://uwu.network) but it 
 
 ### deployment
 
-All source code is stored in `src/`, you kinda just drop this folder in your `www/` folder on your webserver thing, and also make sure to copy `ast/` over inside `src/` when doing so or else you get no images and stuff.
+All source code is stored in `src/`, you kinda just drop this folder in your `www/` folder on your webserver thing.
 
 As for based-ssg stuff I honestly have no fucking idea that's dealt with by suborbital.
 
