@@ -1,3 +1,7 @@
+look i'm too scared to fuck with any of the stuff here even though its just a pre-set readme so suck it lmfao :dab:
+
+---
+
 # Welcome to [Astro](https://astro.build)
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
