@@ -1,0 +1,23 @@
+/* obama.solutions' style.css - our "universal" stylesheet for every page... i hope */
+
+/* import font, in this case terminus (or fira code i still haven't made up my mind, just don't use ibm's font because i don't want alyxia in my dms telling me to change it) */
+
+
+/* normally i'd just do * but sublime colours that with purple and it makes me feel that i did something wrong */
+body{
+	background-color: #191919;
+	color: #E5E4E3;
+}
+
+/* i miss c69.uk */
+a {
+	color: #E5E4E3;
+}
+
+a:visited {
+	color: #BDB5D5;
+}
+
+a:hover {
+	text-shadow: 1px 1px #efefef; /* i wanted to use 0.5px but that's cursed as fuck and i want this to work on IE7 :^) */
+}

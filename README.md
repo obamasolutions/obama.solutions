@@ -7,19 +7,19 @@
 
 ### about
 
-This repository fosters the source code of the most autistic website on the universe, it is written in pure HTML and CSS with some JS here and there for animations. Some pages here are written in Markdown and have to be compiled using a SSG, in our case we use [based-ssg](https://github.com/alloca123/based-ssg) by our fellow Alloca.
+This repository fosters the source code of the most autistic website on the universe, it is written in pure HTML and CSS with some JS here and there. Some pages here are written in Markdown and have to be compiled using a static site generator (SSG), in our case we use [based-ssg](https://github.com/alloca123/based-ssg) by our fellow Alloca as it's lightweight as fuck and our small brains can't deploy something like Hugo.
 
 Also, we practically tried to rip off [uwu.network](https://uwu.network) but it didn't really work out as we wanted it to, specially since we were using Asstro without any proper JS-dev experience, so we just "replicated" it using stock HTML+CSS and called it a day.
 
 ### deployment
 
-All source code is stored in `src/`, you kinda just drop this folder in your `www/` folder on your webserver thing.
+All source code is stored in `src/`, you kinda just copy over all the things inside onto your `www/` folder on your webserver thing and load that.
 
 As for based-ssg stuff I honestly have no fucking idea that's dealt with by suborbital.
 
 ### contributing
 
-While we don't really expect you to contribute anything to this repository, you're welcome to come fix our shit for free. Just make sure to follow [our contributing guidelines](http://krisp.sdf.org/contributing.html) and "follow our coding style" or whatever the fuck that means, just try to picture 2 retards trying to make a website while sharing a single neuron and code like that.
+While we don't really expect you to contribute anything to this repository, you're welcome to come fix our shit for free. Just make sure to follow [our contributing guidelines](http://krisp.sdf.org/contributing.html) and "follow our coding style" or whatever the fuck that means, just try to picture 2 retards trying to make a website while sharing a single neuron and try to code like that.
 
 ### license
 
