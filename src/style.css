@@ -1,12 +1,13 @@
 /* obama.solutions' style.css - our "universal" stylesheet for every page... i hope */
 
-/* import font, in this case terminus (or fira code i still haven't made up my mind, just don't use ibm's font because i don't want alyxia in my dms telling me to change it) */
-
+/* import font, in this case share tech mono (just don't use ibm's font because i don't want alyxia in my dms telling me to change it) */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 /* normally i'd just do * but sublime colours that with purple and it makes me feel that i did something wrong */
 body{
 	background-color: #191919;
 	color: #E5E4E3;
+	font-family: 'Share Tech Mono';
 }
 
 /* i miss c69.uk */
@@ -19,5 +20,10 @@ a:visited {
 }
 
 a:hover {
-	text-shadow: 1px 1px #efefef; /* i wanted to use 0.5px but that's cursed as fuck and i want this to work on IE7 :^) */
+	text-shadow: 1px 1px #efefef; /* i wanted to use 0.5px but that's cursed as fuck and i want this to work on the IE :^) */
+}
+
+/* i think it looks neat, i don't know */
+hr {
+	color: 646464;
 }
