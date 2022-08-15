@@ -3,8 +3,6 @@
 	<h1><a href="https://obama.solutions">obama.solutions</a></h1>
 </div>
 
----
-
 ### about
 
 This repository fosters the source code of the most autistic website on the universe, it is written in pure HTML and CSS with some JS here and there for animations. Some pages here are written in Markdown and have to be compiled using a SSG, in our case we use [based-ssg](https://github.com/alloca123/based-ssg) by our fellow Alloca.
