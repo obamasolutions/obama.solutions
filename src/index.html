@@ -7,7 +7,6 @@
 	<meta content="#ffffff" data-react-helmet="true" name="theme-color">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/gif" href="ast/favicon.gif">
-	<link rel="stylesheet" type="text/css" href="style.css">
 	<style type="text/css">
 		/* 
 		I've been taking on this idea of maybe not having a separate CSS file for every per-page change I do, I know this looks like shit but its way better than having a file called "index.css".
@@ -18,7 +17,11 @@
 
 		Also we import this AFTER the style.css to overwrite the center thing we use on the template for Markdown sites as I don't want all my pages to be -50/-50/50/50% centered (except members, we can play with that later on).
 		- nikki
+
+		Copying and pasting the entirety of style.css minus the part where I import Vanilla-CSS because this shit broken yo.
+		- nikki
 		*/
+		@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 		body {
 			position: absolute;
    			top: 50%;
@@ -26,6 +29,25 @@
    			margin-right: -50%;
 			transform: translate(-50%, -50%);
 			text-align: center;
+			background-color: #191919;
+			color: #E5E4E3;
+			font-family: 'Share Tech Mono';
+		}
+
+		a {
+			color: #E5E4E3;
+		}
+
+		a:visited {
+			color: #BDB5D5;
+		}
+
+		a:hover {
+			text-shadow: 1px 1px #efefef;
+		}
+
+		hr {
+			color: #646464;
 		}
 	</style>
 	<!--[if lt IE 9]>

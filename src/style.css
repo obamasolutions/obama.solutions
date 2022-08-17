@@ -1,25 +1,14 @@
 /* obama.solutions' style.css - our "universal" stylesheet for every page... i hope */
 
-/* import font, in this case share tech mono (just don't use ibm's font because i don't want alyxia in my dms telling me to change it) */
+/* import things, we use SPCSS as our base/framework and Share Tech Mono as our font */
+@import url('https://vanillacss.com/vanilla.css');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
-
-/* code blatantly stolen from vanilla-css/neonette, made by bradley taunt - credited because dude's actually really cool and i'm not SolidJS to break fucking MIT of all licenses lmfao */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio , video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-/* normally i'd just do * but sublime colours that with purple and it makes me feel that i did something wrong */
+/* normally i'd just do * but Sublime colours that with purple and it makes me feel that i did something wrong */
 body{
 	background-color: #191919;
 	color: #E5E4E3;
 	font-family: 'Share Tech Mono';
-	text-align: center;
 }
 
 /* i miss c69.uk */
@@ -37,5 +26,5 @@ a:hover {
 
 /* i think it looks neat, i don't know */
 hr {
-	color: 646464;
+	color: #646464;
 }
