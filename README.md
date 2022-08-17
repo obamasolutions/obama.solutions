@@ -5,7 +5,7 @@
 
 ### about
 
-This repository fosters the source code of the most autistic website on the universe; it is written in pure HTML and CSS with some JS here and there. Some pages here are written in Markdown and have to be compiled using a static site generator (SSG), in our case we use [based-ssg](https://github.com/alloca123/based-ssg) by our fellow Alloca as it's lightweight as fuck and our small brains can't deploy something like Hugo.
+This repository fosters the source code of the most autistic website on the universe; it is written in pure HTML and CSS with some JS here and there. Some pages here are written in Markdown and have to be compiled using a static site generator (SSG), as of August 16th '22, [we do not have any "set" SSG to use](https://obama.solutions/~nikki/articles/markdown-in-obama.html).
 
 Also, we practically tried to rip off [uwu.network](https://uwu.network) but it didn't really work out as we wanted it to, specially since we were using Asstro without any proper JS-dev experience, so we just "replicated" it using stock HTML+CSS and called it a day.
 
