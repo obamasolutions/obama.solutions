@@ -17,4 +17,4 @@ Oh and that time he told *a box of kittens* some fucked up things in Debian Unof
 
 Due to this, I suggest the idea of letting Lenny starve to death, or mailing a pipe bomb to his address, which is publicly available anyways.
 
-(Note, as much as we hate Lenny, our lawyers told us to add this warning that we do not mean that "starving people to death" thing and that we do not mean any calls-for-violence to Lenny or his physical mailbox (you can still spam him at jaakleugos@gmail.com or whatever the fuck his email now is). And that is a test page to test our SSG setup, learn more about this [here](https://obama.solutions/~nikki/articles/markdown-in-obama.html)) 
+(Note, as much as we hate Lenny, our lawyers told us to add this warning that we do not mean that "starving people to death" thing and that we do not mean any calls-for-violence to Lenny or his physical mailbox (you can still spam him at jaakleugos@gmail.com or whatever the fuck his email now is). And that is a test page to test our SSG setup, learn more about this [here](https://obama.solutions/~nicoleaoki/articles/markdown-in-obama.html)) 

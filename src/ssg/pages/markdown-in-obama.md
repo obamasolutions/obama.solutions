@@ -6,6 +6,8 @@ author = "Nicole Aoki"
 
 **I'm still working on this! Please wait and do NOT compile this page until I write "That's all from me, cheers" at the end of the article.**
 
+---
+
 # Markdown in Obama Solutions
 
 ​	We all love Markdown, that markdown (haha) language/standard used for so many things nowadays that it is something that most of us don't really think about too much anymore, specially these days where all that Markdown is used for everything from plain README files in Git repositories, to complete websites of all sizes and types. Want to make a blog or portfolio? Use Markdown with Hugo or Jekyll; Want to make some docs for this cool project you're making? Use (idk the name of the thing I'm writting this offline), and so on.
@@ -20,4 +22,6 @@ author = "Nicole Aoki"
 
 ​	After this, we decided to find yet another SSG, after some searching on Github's crippled and extremely autistic search engine, we found [Bonsai](https://github.com/benschwarz/bonsai), a SSG written in Ruby that wasn't really an SSG to begin with but a whole hordeal of features packed into a package that has been abandoned for 8 years now... oh I didn't mention how Bonsai had it last commit in 2014?. At the end we tried to give it up for a spin and surprisingly found that it worked, but we're 100% sure that it has like 100 CVEs and that if we were going to deploy this in our server the thing would crash the moment we tried to deploy things so... yeah. While Bonsai is a really neat concept that I'd like for someone to take on with a more modern approach and with a language like Crystal (or just Python), we don't feel comfortable running 8 year old code that does *waaaaaaay* more than what we need it to, so to finish that micro review of sorts of Bonsai. I'd love for someone to fork it (perhaps call it Tree?) and maintain it, or just rewrite it on another language as mentioned before.
 
-​	Now that we have that out of the way, I'd also like to give a shoutout to [Obelisk](https://github.com/BennyHallett/obelisk), a fucking SSG written in Elixir out of all languages, written by someone who hasn't logged into Github in over 6 years. Kinda weird that we found this to begin with but of course we tried to take if for a spin, (waiting for suborbital to test it so I can write about this).
+​	Now that we have that out of the way, I'd also like to give a shoutout to [Obelisk](https://github.com/BennyHallett/obelisk), a fucking SSG written in Elixir out of all languages, written by someone who hasn't logged into Github in over 6 years. Kinda weird that we found this to begin with but of course we tried to take if for a spin, and of course, it didn't work. We tried a lot of things to make it work but it just wouldn't work without shitting 100k errors and die. I guess that "Write Once, Debug Everywhere" also applies to Elixir... or maybe its just that we were trying to run 6 year old code in modern Elixir, who knows.
+
+​	But of course, the SSG Bonanza doesn't end there! We found a little SSG written in Rust by the name of *BLADES* (no, @grego, I'm not explaining what Blades means), (waiting on @suborbital to deploy with blades so i can shit on it)
