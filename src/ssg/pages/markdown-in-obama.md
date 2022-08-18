@@ -4,7 +4,7 @@ description = "An overview on how the deployment of Markdown-written pages works
 author = "Nicole Aoki"
 ---
 
-**I'm still working on this! Please wait and do NOT compile this page until I write "That's all from me, cheers" at the end of the article.**
+**I'm still working on this! Please wait and do NOT compile this page until I write "That's all from me, cheers" at the end of the article, if you accidentally compile this, just delete the thing from my directory, thank you.**
 
 ---
 
