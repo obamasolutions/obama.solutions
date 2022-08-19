@@ -1,33 +1,26 @@
 /* 
 
-THIS IS STILL UNDER HEAVY DEVELOPMENT, SO HEAVY IN FACT THAT YOU CAN'T EVEN CONSIDER THIS READY TO BE SEEN BY ANYONE BUT ME.
-
-AS MENTIONED IN THE README, WAIT UNTIL AUGUST 24TH OR SEPTEMBER 1ST TO RELEASE THIS PUBLICLY.
-
-OBAMA.SOLUTION'S NEONETTE IS CURRENTLY THE IN-DEV BRANCH OF @CITIZENSIXTYNINE/NEONETTE (soon to be @nicoleaoki/neonette)
-
-AFTER NEONETTE V2'S FORMAL RELEASE, THIS FILE SHOULD BE DELETED AND THE NETLIFY/ONLINE VERSION OF NEONETTE SHOULD BE USED.
-
----
-
 Neonette v2 - Neon
 
-Original Stylesheet (index.css) by Nanom. Modified, rebranded and extended by Nicole Aoki.
+Original stylesheet by Nanom. Modified, rebranded and extended by Nicole Aoki.
 
 Nv2 uses SPCSS as its stylesheet for images, captions, codeblocks, quotes and tables.
 
-Licensed under the MIT license.
+Licensed under the MIT license (crediting @susam and @bradleytaunt; for SPCSS and VanillaCSS respectively).
 
 ---
 
-This is an alpha version of Neonette v2, built ontop/from Nanom's old (mid-2021) index.css, it's still a rough "sketch" but should be ready to deploy.
+This is an alpha version of Neonette v2, built ontop/from Nanom's old (mid-2021) index.css, it's still a rough "sketch" but should be ready to use.
 
-Nv2 will ditch all VanillaCSS code in favor of using "simpler" and more lightweight code from SPCSS, this is because of how "robust" VanillaCSS is and how 
+As mentioned in README, please wait for August 24th to deploy/delete.
+
+---
+
+AFTER NEONETTE V2'S FORMAL RELEASE, THIS FILE SHOULD BE DELETED AND THE NETLIFY/ONLINE VERSION OF NEONETTE SHOULD BE USED FOR OBAMA.SOLUTIONS.
 
 */
 
-
-/* Nanom's Original Code, with some code removed so that stuff works */
+/* Nanom's Original Code, with some code removed so that stuff works. - Do not touch any code here, It's Nanom's work. */
 body {
   max-width: 720px;
   background-color: #27293A;
@@ -199,7 +192,7 @@ hr {
 }
 
 
-/* import font (Terminus) - also epic 2mb worth of fonts */
+/* import font (Terminus) - epic 2mb worth of a bitmap font in TTF because fuck you. */
 @font-face {
   font-family: "Terminus";
   src: url("https://neonette.netlify.app/fonts/Terminus.ttf") format("truetype");
@@ -229,39 +222,43 @@ hr {
 }
 
 
-/* SPCSS (for images, codeblocks, quotes, etc) */
-
+/* SPCSS (for images, codeblocks, quotes, etc) - Do not touch any code here, unless it's to change colours and fix shit. */
 img {
   max-width: 100%;
 }
+
 figure {
   margin: 1em 0;
   text-align: center;
 }
+
 figcaption {
   font-size: small;
 }
+
 pre, code, samp, kbd {
-  color: #009;
+  color: #f8f8f2;
   font-family: monospace, monospace;
 }
+
 pre kbd {
-  color: #060;
+  color: black;
 }
+
 pre, blockquote {
-  background: #eee;
+  color: black;
+  background: #f8f8f2;
   padding: 0.5em;
 }
+
 pre {
+  color: black;
   overflow: auto;
-}
-blockquote {
-  border-left: medium solid #ccc;
-  margin: 1em 0;
 }
 blockquote :first-child {
   margin-top: 0;
 }
+
 blockquote :last-child {
   margin-bottom: 0;
 }
@@ -269,14 +266,14 @@ blockquote :last-child {
 table {
   border-collapse: collapse;
 }
+
 th, td {
   border: thin solid #999;
   padding: 0.3em 0.4em;
   text-align: left;
 }
 
-/* Additional Modifications by Nikki (to override both Nanom's CSS and SPCSS) */
-
+/* Additional Modifications by Nikki (to override both Nanom's CSS and SPCSS) - Touch all the code here. */
 nav {
   text-align: center;
 }
@@ -287,4 +284,13 @@ p {
 
 nav {
   font-size: 1.4em;
+}
+
+h6 {
+  text-align: center;
+}
+
+tt, var {
+  color: #f8f8f2;
+  font-family: monospace, monospace;
 }
