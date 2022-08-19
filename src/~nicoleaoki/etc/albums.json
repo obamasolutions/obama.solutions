@@ -1,0 +1,211 @@
+/*
+albums.json - the JSON file that contains all of my favorite albums... well not all of them but you get the point.
+
+The way thins JSON file is structured works like this:
+- Album ID/Number (14)
+- Name of the Album (Voyeur)
+- Artist (Saint Motel)
+- Sleevenote link (https://sleevenote.com/whatever)
+- Cover art (https://cdn.spoopyfy.cum/album/at9038y47328213567843685.png)
+
+In theory, when you click the "Roll!" button, the script should randomly select a number between 00 or 30 and load the data from whatever number it picked.
+If it picks 14, it should load album14's data and replace the "Unknown" placeholder in the site by modifying the DOM.
+
+I'll gradually update this thing every now and then as I discover more music or remember an album that I really liked but forgot about it while I was writing this.
+May 21 22 - 3:05am CST
+*/
+
+{
+	"album00": {
+		"name": "Marvin's Marvelous Mechanical Museum",
+		"artist": "Tally Hall",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album01": {
+		"name": "Favorite Worst Nightmare",
+		"artist": "Arctic Monkeys",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album02": {
+		"name": "Right Thoughts, Right Words, Right Action",
+		"artist": "Franz Ferdinand",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album03": {
+		"name": "Plastic Beach",
+		"artist": "Gorillaz",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album04": {
+		"name": "Now, Not Yet",
+		"artist": "half·alive",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album05": {
+		"name": "Audio, Video, Disco",
+		"artist": "Justice",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album06": {
+		"name": "Sansan",
+		"artist": "Kaneko Ayano",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album07": {
+		"name": "Luck",
+		"artist": "Tom Vek",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album08": {
+		"name": "Leisure Seizure",
+		"artist": "Tom Vek",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album09": {
+		"name": "Congratulations",
+		"artist": "MGMT",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album10": {
+		"name": "Manners",
+		"artist": "Passion Pit",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album11": {
+		"name": "ZERO-GO",
+		"artist": "Pinocchio-P",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album12": {
+		"name": "Kid A",
+		"artist": "Radiohead",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album13": {
+		"name": "Demos (Do Not Share)",
+		"artist": "Ren",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album14": {
+		"name": "Voyeur",
+		"artist": "Saint Motel",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album15": {
+		"name": "ForPlay",
+		"artist": "Saint Motel",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album15": {
+		"name": "Brother Where You Bound",
+		"artist": "Supertramp",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album16": {
+		"name": "The Cat Empire",
+		"artist": "The Cat Empire",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album17": {
+		"name": "Phone Power",
+		"artist": "They Might Be Gigants",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album18": {
+		"name": "Regional At Best",
+		"artist": "Twenty One Pilots",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album19": {
+		"name": "Good News For People Who Love Bad News",
+		"artist": "Modest Mouse",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album20": {
+		"name": "The Family Jewels",
+		"artist": "Marina",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album21": {
+		"name": "1981 Extended Play",
+		"artist": "I DONT KNOW HOW BUT THEY FOUND ME",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album22": {
+		"name": "Torches",
+		"artist": "Foster The People",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album23": {
+		"name": "Sacred Heart Club",
+		"artist": "Foster The People",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album24": {
+		"name": "Solarize",
+		"artist": "Capital Cities",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album25": {
+		"name": "Fanfare to Nekkyou",
+		"artist": "Andymori",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album26": {
+		"name": "Anticyclone",
+		"artist": "Inabakumori",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album27": {
+		"name": "Gruppa Krovi",
+		"artist": "Kino",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album28": {
+		"name": "Etachi",
+		"artist": "Molchat Doma",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album29": {
+		"name": "Worlds",
+		"artist": "Porter Robinson",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},
+	"album30": {
+		"name": "The Normal Album",
+		"artist": "Will Wood",
+		"sleevenote": "placeholder",
+		"cover": "placeholder",
+	},	
+}

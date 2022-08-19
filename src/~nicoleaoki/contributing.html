@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="nikki's contributing guidelines" property="og:title">
+	<meta content="because I want to be a Commit Nazi... that sounds wrong" property="og:description">
+	<meta content="#ffffff" data-react-helmet="true" name="theme-color">
+	<link rel="icon" type="image/png" href="../ast/~nicoleaoki/sun.png"> <!-- placeholder -->
+	<link rel="stylesheet" type="text/css" href="neon.css">
+</head>
+<body>
+	<main>
+		<h1>Nikki's Personal Contributing Guidelines</h1>
+		<hr>
+		<p>I had this idea a while ago (about a year), of making my own little set of guidelines for when it comes to me committing/opening PRs or issues/etc, not because I needed them or anything, but because I wanted to provide something for others to see how I like contributing and stuff. Also because I'd like to give some kind of "baseline" that others can then inspire their own contributing guidelines and stuff from.</p>
+		<h2>setup</h2>
+		<p>First of all, what I refer to as my "setup", is just a pretty simple description of my dev environment. Second, I put this out just for others to see how I do stuff, not as a "hey roast my stuff". I don't care what distro you use, what editor you use, what compiler do you prefer; this is my setup.</p>
+		<ul>
+			<li>laptop: Huawei Matebook D 15 2020 (AMD)</li>
+			<li>distro: Fedora</li>
+			<li>browser: Ungoogled Chromium</li>
+			<li>editor: Sublime Text</li>
+			<li>terminal: gnome-terminal</li>
+			<li>shell: zsh + starship</li>
+		</ul>
+		<h2>issues and PRs</h2>
+		<p>All issues and PRs' titles are labeled at the start with one of the following tags:</p>
+		<ul>
+			<li>[INFO] - Just information for future issues/PRs to make a reference to, not really reporting a problem or anything.</li>
+			<li>[HELP] - Asking for help on something, if on an issue that means the issue is well... an issue; if on a PR this means that help is needed.</li>
+			<li>[DISCUSSION] - Starting a discussion on something; only used for issues.</li>
+			<li>[SUGGESTION] - For suggestions, similar to discussion but its just for suggestions; only used for issues.</li>
+			<li>[FIX] - For submitting patches/commits that fix things; only used for PRs</li>
+			<li>[WIP] - For patches/commits that are Work In Progress, PRs tagged with this will always have a "Draft" tag next to them (in Github); only used for PRs</li>
+			<li>And more not listed here because I'm writing this while offline...</li>
+		</ul>
+		<p>And as far as issue/PR etiquette goes, just try to pack as much info into one message/comment, nobody likes having 4 emails from Github because you can't edit a message or attach a video. Also, all issues/PRs (and commits) have to end with "I hope you explode", regardless of context.</p>
+		<h2>repositories</h2>
+		<p>Repositories (with code, although this practically applies to all) have to follow the following 3-character-long directory structure:</p>
+		<ul>
+			<li><code>ast/</code> - for media assets (images, audio, video, etc)</li>
+			<li><code>src/</code> - source code, the folder containing the actual thing</li>
+			<li><code>man/</code> - man pages, always include man pages. (for installable CLI utilities only)</li>
+			<li><code>bld/</code> - where binaries should be stored after being compiled, short for "build"</li>
+			<li><code>dbs/</code> - for databases</li>
+			<li><code>www/</code> - similar to <code>src/</code> but for projects with a website within the repository</li>
+			<li><code>cfg/</code> - configuration files</li>
+			<li><code>plt/</code> - for platform-specific things</li>
+		</ul>
+		<p>With directory structure aside, the "master" branch shall always be called <code>mistress</code>, while the "testing" branch shall always be called <code>butler</code>. All other branches can have whatever funky skiddly skadadly name but as far as branches that are considered "important" like these 2, their name shall always be these.</p>
+		<p>Archived Repositories must move to an "archival" organization , this is both to have a proper backlog of what projects are maintained and to have things tidy (le epic 142 repositories in this profile).</p>
+		<h2>licenses</h2>
+		<p>Like the true autist that I am, I tend to use (and recommend) GPL licenses, more specifically the AGPLv3 license. Due to this, I've made a chart/list of what license shall be used depending on the nature of the project:</p>
+		<ul>
+			<li><i>De-facto</i>: AGPLv3</li>
+			<li><abbr title="System Modules, programs of High-Relevance, Compilers, etc">Hi-Priority Software</abbr>: GPLv2</li>
+			<li>Libraries: LGPLv3</li>
+			<li>Addons/Extensions: <a href="https://github.com/citizensixtynine/ymg-v2">YMGv2</a> (or v3 when it comes out)</li>
+			<li>Archived Projects and Documentation: BSD-3</li>
+		</ul>
+		<p>If you'd like me to relicense a project or add special terms for your use-case, don't be afraid to <a href="contact.html">reach out</a>, I'm sure something can be arranged!</p>
+		<h2>commits (and PRs to some extent)</h2>
+		<p>Look, I don't want my contrib graph looking like <a href="ast/bathroom.png">a fucking bathroom</a>, so I might as well just send one big commit with a lot of code at once, I don't care if I'm gonna have to spend 1 hour of my time fixing merge conflicts or doing code review, I'm not spamming commits for every single change I make.</p>
+		<h2>comments (commits)</h2>
+		<p>Going along with that entire "one commit > 100 small commits" thing, I always try to explain everything that my gigant commit does in detail via a git comment, I know its odd but at least I'm not throwing a PR called "ehkwrjguhlvrgthugtrjlite" and having the maintainers guess what it does by reading the code.</p>
+		<h2>comments (code)</h2>
+		<p>I try to make comments only when necessary (ex, code is fucking spaghetti), and even when I do, I'm gonna be humourist about it. All I'm gonna say about this is that comments aren't really something I enjoy being formal about as it's one of those things that don't really matter unless I'm trying to make some kind of glossary to look back in the future, which even then, I'm gonna be really informal about. And most developers won't even see them so I honestly don't care about them.</p>
+		<h2>signatures</h2>
+		<p>I tend to always sign my commits, you can get a hold of my GPG and SSH keys over at <a href="about.html">my about page</a>. Now, my GPG key may only have 2 emails listed (kris@memeware.net and citizensixtynine@protonmail.com), but in reality I use it for more than just those 2 emails, but I'm also really lazy to remake my key and add more emails so here's a list of emails that I hereby approve that I use with this GPG key:</p>
+		<ul>
+			<li>krisp@riseup.net</li>
+			<li>krisnull@cock.li</li>
+			<li>nikki@doge-mail.net</li>
+			<li>jcitron@discord.com</li>
+		</ul>
+		<p>And as far as Github's pre-generated key thing goes (you know the one from the Web UI/Desktop Client), that  is also approved. And may I add that all my Gitlab/Codeberg commits will always be signed with this key, if you see a commit of mine not signed with this key under these platforms, please contact me about it.</p>
+		<hr>
+		<p>This should be about it when it comes to my entire "contributing guidelines etiquette" endeavours, I'll update this as time goes on but that should be about it.</p>
+	</main>
+</body>
+</html>
