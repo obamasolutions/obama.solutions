@@ -14,7 +14,9 @@ Neonette v2 - Neon
 
 Original Stylesheet (index.css) by Nanom. Modified, rebranded and extended by Nicole Aoki.
 
-Licensed under the MIT license
+Nv2 uses SPCSS as its stylesheet for images, captions, codeblocks, quotes and tables.
+
+Licensed under the MIT license.
 
 ---
 
@@ -227,11 +229,53 @@ hr {
 }
 
 
-/* SPCSS snippets (for images, codeblocks, quotes, etc) */
+/* SPCSS (for images, codeblocks, quotes, etc) */
 
+img {
+  max-width: 100%;
+}
+figure {
+  margin: 1em 0;
+  text-align: center;
+}
+figcaption {
+  font-size: small;
+}
+pre, code, samp, kbd {
+  color: #009;
+  font-family: monospace, monospace;
+}
+pre kbd {
+  color: #060;
+}
+pre, blockquote {
+  background: #eee;
+  padding: 0.5em;
+}
+pre {
+  overflow: auto;
+}
+blockquote {
+  border-left: medium solid #ccc;
+  margin: 1em 0;
+}
+blockquote :first-child {
+  margin-top: 0;
+}
+blockquote :last-child {
+  margin-bottom: 0;
+}
 
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: thin solid #999;
+  padding: 0.3em 0.4em;
+  text-align: left;
+}
 
-/* Additional Modifications by Nikki (random snippets I've found on the net and things I've made myself) */
+/* Additional Modifications by Nikki (to override both Nanom's CSS and SPCSS) */
 
 nav {
   text-align: center;
