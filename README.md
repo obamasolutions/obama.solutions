@@ -27,7 +27,7 @@ While we don't really expect you to contribute anything to this repository, you'
 
 ### license
 
-All source code here is licensed under the [YMGv3](https://github.com/nicoleaoki/ymg-v3) license, while some images are copyrighted and whatever the fuck, we honestly don't give a single shit about all that copyright stuff; if you're mad that we stole your shit, we recommend you to go seethe, cope and mald, then go send us an email over at <hello@obama.solutions> explaining your situation (we'll def not ignore you until you threaten to sue us).
+As of August 24th, All source code here is licensed under the [Apache 2.0](https://apache.org/licenses/LICENSE-2.0) license; note that we're planning on relicensing this to our own license in the near future but we'll make sure it's compatible. Also, while some images are copyrighted and whatever the fuck, we honestly don't give a single shit about all that copyright stuff; if you're mad that we stole your shit, we recommend you to go seethe, cope and mald, then go send us an email over at <hello@obama.solutions> explaining your situation (we'll def not ignore you until you threaten to sue us).
 
 ### credits
 
