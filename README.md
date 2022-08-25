@@ -1,7 +1,3 @@
-**DO NOT MAKE THIS REPOSITORY PUBLIC UNTIL AUGUST 24TH/SEPTEMBER 1ST, IF YOU DO I WILL BREAK YOUR FUCKING LEGS**
-
----
-
 <div align="center">
 	<img src="src/ast/branding/readme.gif" alt="Look at this handsome man, how he spins after being painfully tortured and turned into a prism! (also fuck you, let me load a 318k gif of Hi-Res Obama Prism spinning)">
 	<h1><a href="https://obama.solutions">obama.solutions</a></h1>
@@ -27,7 +23,7 @@ While we don't really expect you to contribute anything to this repository, you'
 
 ### license
 
-All source code here is licensed under the [YMGv3](https://github.com/nicoleaoki/ymg-v3) license, while some images are copyrighted and whatever the fuck, we honestly don't give a single shit about all that copyright stuff; if you're mad that we stole your shit, we recommend you to go seethe, cope and mald, then go send us an email over at <hello@obama.solutions> explaining your situation (we'll def not ignore you until you threaten to sue us).
+As of August 24th, All source code here is licensed under the [Apache 2.0](https://apache.org/licenses/LICENSE-2.0) license; note that we're planning on relicensing this to our own license in the near future but we'll make sure it's compatible. Also, while some images are copyrighted and whatever the fuck, we honestly don't give a single shit about all that copyright stuff; if you're mad that we stole your shit, we recommend you to go seethe, cope and mald, then go send us an email over at <hello@obama.solutions> explaining your situation (we'll def not ignore you until you threaten to sue us).
 
 ### credits
 
@@ -41,4 +37,4 @@ So with that said, thanks to the following people for making this possible:
 - [@alloca123](https://github.com/alloca123) for making *based-ssg*, the SSG that we originally planned to use but ended up ditching because I like seething about not being able to use all Markdown features. Also because cool friend who profits off underage sex.
 - [@idkso](https://github.com/idkso) for being a fucking retard who let the idk.so domain die and having us buy obama.solutions and get suborbitalrat's server up to replace his piss-smelling server which he wouldn't even give us access to. Fuck you dude.
 - [@uwu](https://github.com/uwu) members for making uwu.network, the site that inspired us to make this thing.
-- [@you](https://github.com/settings), for reading this readme and giving a fuck about us. Just for doing that you deserve some credit.
+- [@you](https://github.com/settings/profile) for reading this readme and giving a fuck about us. Just for doing that you deserve some credit.
