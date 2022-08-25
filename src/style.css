@@ -1,5 +1,7 @@
 /* obama.solutions' style.css - our "universal" stylesheet for every page... i hope */
 
+/* main is used for articles btw */
+
 /* import things, we use SPCSS as our base/framework and Share Tech Mono as our font */
 @import url('https://vanillacss.com/vanilla.css'); /* i'd like to store vanilla.css in a folder like I did with Nv1 in krisp.sdf.org but eh */
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); /* I'd like to use IBM's font (or Terminus idk) on non-apex sites but I don't want Alyxia DMing me after 100 years just to tell me to change it */
@@ -30,6 +32,6 @@ hr {
 }
 
 /* broder */
-body{
+main{
 	border: outset;
 }
