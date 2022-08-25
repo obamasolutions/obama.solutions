@@ -28,3 +28,8 @@ a:hover {
 hr {
 	color: #646464;
 }
+
+/* broder */
+body{
+	border: outset;
+}
