@@ -1,0 +1,21 @@
+Header set X-Robots-Tag "noindex"
+ErrorDocument 400 error.html
+ErrorDocument 401 error.html
+ErrorDocument 403 error.html
+ErrorDocument 404 error.html
+ErrorDocument 405 error.html
+ErrorDocument 408 error.html
+ErrorDocument 409 error.html
+ErrorDocument 500 error.html
+ErrorDocument 501 error.html
+ErrorDocument 502 error.html
+ErrorDocument 503 error.html
+ErrorDocument 504 error.html
+ErrorDocument 505 error.html
+Options -Indexes
+<Files ~ "^.*\.([Hh][Tt][Aa])">
+        Order allow,deny
+        Deny from all
+        Satisfy all
+</Files>
+AddHandler server-parsed .html

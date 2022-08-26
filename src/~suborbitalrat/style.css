@@ -1,0 +1,146 @@
+/** Content elements **/
+
+        /* Body */
+        body {
+                font-family: Verdana, sans-serif;
+                background-color: #282a36;
+                margin: 0;
+                width: 100%;
+        }
+
+        /* How links will look */
+        a:link {
+                color: #bd93f9;
+                text-decoration: none;
+        }
+        a:visited {
+                color: #6272a4;
+                text-decoration: none;
+        }
+        a:hover {
+                color: #6272a4;
+                text-decoration: none;
+        }
+
+        /* Tables */
+        table {
+                margin-left: 32px;
+                border-spacing: 16px;
+                background-color: #44475a;
+        }
+        td {
+                padding: 8px 0;
+        }
+
+        /* Little underline thing on heading */
+        h3 {
+                display: inline-block;
+        }
+        h3:after {
+                content: '';
+                display: block;
+                border-top: 2px solid #bd93f9;
+                margin-top: 0.2em;
+        }
+
+        /* Horizontal Line */
+        hr {
+                color: #bd93f9;
+        }
+
+        /* Content div */
+        div.content {
+                color: #f8f8f2;
+                margin-left: 16%;
+                padding: 1px 16px;
+                height: auto;
+        }
+
+/** Navbar crap **/
+
+        /* Sidenav */
+        ul.sidenav {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 16%;
+                background-color: #44475a;
+                position: fixed;
+                height: 100%;
+                overflow: auto;
+        }
+
+        /* Sidenav items */
+        ul.sidenav li a {
+                display: block;
+                color: #f8f8f2;
+                padding: 8px 16px;
+                text-decoration: none;
+                transition: all 150ms linear;
+        }
+
+        /* Active sidenav items */
+        ul.sidenav li a.active {
+                background-color: #bd93f9;
+                color: #f8f8f2;
+        }
+
+        /* When hovered over */
+        ul.sidenav li a:hover {
+                background-color: #6272a4;
+                color: #f8f8f2;
+        }
+
+/** File index **/
+
+        /* Color and alignment */
+        pre {
+                color: #f8f8f2;
+                margin-left: calc(16% + 16px);
+                margin-right: 16px;
+        }
+
+        /* Description */
+        span.description {
+                font-style: italic;
+                white-space: normal;
+        }
+
+/** Modifications for smaller screens **/
+
+        /* 900px wide or less*/
+        @media screen and (max-width: 900px) {
+                
+                /* Sidenav */
+                ul.sidenav {
+                        width: 100%;
+                        height: auto;
+                        position: relative;
+                }
+
+                /* Sidenav items */
+                ul.sidenav li a {
+                        float: left;
+                        padding: 15px;
+                }
+
+                /* Content div */
+                div.content {
+                        margin-left: 0;
+                }
+
+                /* File index */
+                pre {
+                        margin-left: 16px;
+                }
+        }
+
+        /* 400px wide or less */
+        @media screen and (max-width: 400px) {
+
+                /* Sidenav items */
+                ul.sidenav li a {
+                        text-align: center;
+                        float: none;
+                }
+        }
