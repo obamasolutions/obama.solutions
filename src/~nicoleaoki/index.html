@@ -6,8 +6,17 @@
 	<meta content="nikki's site" property="og:title">
 	<meta content="a really weird site, for a really weird person" property="og:description">
 	<meta content="#ffffff" data-react-helmet="true" name="theme-color">
-	<link rel="icon" type="image/png" href="../ast/~nicoleaoki/nikoki.png">
+	<link rel="icon" type="image/png" href="../ast/~nicoleaoki/icon.png">
 	<link rel="stylesheet" type="text/css" href="https://neonette.netlify.app/neon.css">
+	<style type="text/css">
+		/* I didn't want to add in-line/one-paged CSS in this place but God is unfair and hates those who question his authority. */
+
+		.external{
+			border-style: dashed;
+			border-width: 0.15em;
+		}
+	</style>
+	<!-- <script type="text/javascript" src="index.js"></script> -->
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -17,7 +26,7 @@
 	<main>
 		<h1>nikki's site (IE<9 Compatible!)</h1>
 		<hr>
-		<p>Howdy! I'm Nikki, a <a href="../ast/~nicoleaoki/contentcreator.jpg">content creator</a> from Mexico City, and I made this site!</p>
+		<p>Howdy! I'm Nikki, a <a href="../ast/~nicoleaoki/contentcreator.jpg">content creator</a> from Mexico City, and I (didn't) made this site!</p>
 		<br>
 		<nav>
 			<span class="sep"/>
@@ -34,7 +43,46 @@
 			<a href="etc.html"></a>
 		</nav>
 		<br>
-		<!-- Make thingy in JS to have "latest article" thing here, or something, don't leave this empty. -->
+		<!-- doesn't work and i'm too tired to make it work also epic 2.8kb of comments that browsers are never going to render lmfao
+
+		<nav class="external">
+			<div id="quoteText">Science isn't about why, but about why not. - Cave Johnson</div>
+			<button onclick="quoteFun()">Show me another quote!</button>
+		</nav>
+		<script type="text/javascript">
+			var quotes = {
+				"A Fedora 36 install turned 37 turned Rawhide, what can go wrong? - Nikki before seeing her first kernel panic",
+				"We're working to send a rat into the Earths suborbit, do you really think we're sane? - Nikki after going full schizo about Time Travel",
+				"You sound like femboy Alex Jones rn - ~suborbitalrat after reading Nikki's Time Travel theory",
+				"I should make a 40-minute long retrospective about a mobile carrier that nobody cares about but that my 6-year-long hyperfixation, product of my autism begs me to do so. - Nikki",
+				"I'm busy talking to transsexuals on IRC. - Nikki",
+				"Fuck Conman. - Alyxia",
+				"ayo congrats on the dead person. - Nikki after Queen Elizabeth II died",
+				"god, please, bring a Savior to this place. - Someone on the Goodix Discord",
+				"Should I move to Germany because they have the McRib all-year round? - Nikki",
+				"Nop, but you can use AIDS. - RemixDev",
+				"boobs. - Craftnut after writing their first PGP-encrypted message",
+				"According to that name finder thing, there is one person in the US named John Egbert and I want to leave them with 900000 USD of debt. - ~suborbitalrat after finding out that you can inherit debt",
+				"You know how the Dollar is tied to gold, the Euro to debt and the British Pound to Marmite? - Nikki after being asked about how Stablecoins work",
+				"@everyone. - Emm from the Mario Kart Discord",
+				"Desired Salary: 2. - Nikki applying for a job at Nu",
+				"Am I a furry if I want Lucario to hold me tight? - Nikki during a game of CAH",
+				"gimme pizza. - That one Captcha I got once while downloading Pokemon Sword",
+				"ASDL over Piss. - ~suborbitalrat",
+				"you think designing satellites does not involve thinking and acting like a retard? - Nikki",
+				"can i have cool people back? - Nikki before getting banned from Cumcord",
+				"i'm not paying 1000€ for a fucking yoo dee yadah dress that looks that it came off the costumes for the peasants in monty python and the holy grail. - Nikki after opening Farfetch for the first time",
+				"no wonder you masturbate in vc with a vibrator that we can control from the web. - Nikki when Creatable came out as a Weezer fan",
+				"All of America should do Adderall or MDMA. - Nikki"
+			}
+
+			function quoteFun() {
+				var randomNumber = Math.floor(Math.random() = (quotes.length));
+				document.getElementById('quoteText').innerHTML = quotes[randomNumber];
+			}
+		</script>
+
+		-->
 		<footer>Made with hate <span class="sep"/> <a href="https://github.com/obamasolutions/obama.solutions">source code</a> <span class="sep"/> based on <a href="https://nanom.neocities.net">nanom's site</a></footer>
 	</main>
 </body>

@@ -11,9 +11,11 @@ One of the most charming parts of the internet are finding those small-indie sit
 
 I can't really describe what is here, as you can find things like a list of past personas I've used, or a button that gives you one of my favorite albums. There really isn't a set topic or anything. You're free to sit and click anything that interests you, but please try to "respect" what is here and have some kind of viewer discretion.
 
+Also, you'll find a lot of "archived" things here, when I archive something its because the contents of the page are nolonger of my interest and for all I care, they could be lost to time and I wouldn't give a damn. They're only kept here for the sake of posterity and because I'm extremely paranoid/against data rot and overall the permanently losing a piece of data; important or not, also because I love taking up storage and bandwidth on useless things.
+
 ## articles
 
-- [the journey of finding a new laptop](etc/newlaptop.zip) - a post where i decided to find a new laptop, archived and outdated to the point its now a ZIP file
+- [the journey of finding a new laptop](etc/newlaptop.zip) - a post where i decided to find a new laptop, archived and so outdated to the point its now a ZIP file
 
 ## lists
 
