@@ -14,17 +14,13 @@ I can't really describe what is here, as you can find things like a list of past
 Also, you'll find a lot of "archived" things here, when I archive something its because the contents of the page are nolonger of my interest and for all I care, they could be lost to time and I wouldn't give a damn. They're only kept here for the sake of posterity and because I'm extremely paranoid/against data rot and overall the permanently losing a piece of data; important or not, also because I love taking up storage and bandwidth on useless things.
 
 ## articles
-
 - [the journey of finding a new laptop](etc/newlaptop.zip) - a post where i decided to find a new laptop, archived and so outdated to the point its now a ZIP file
 
 ## lists
-
 - [names](etc/names.html) - usernames/names that i've used in the past, outdated and in the process of being rewritten to reflect the Nicole/Nikki/Nikoki rebrand
 
 ## toys
-
 - [albums](etc/albums.html) - a little JS experiment that gives you the name, artist and sleevenote link to one of my favorite albums, archived but kept for the sake of reminding myself of reminding myself that I can't do anything right
 
 ## misc
-
 - [nikki's contribuiting guidelines](etc/contributing.html) - imagine a .github CONTRIBUITING file that's actually good and in a form of a minimalistic website!!!
