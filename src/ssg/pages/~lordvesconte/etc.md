@@ -1,9 +1,9 @@
 ---
-title="nikki's /etc/"
+title="kris' /etc/"
 description="a compendium of all things, whether related to me or not, in a small yet personal corner."
 ---
 
-# nikki's /etc/
+# kris' /etc/
 
 ---
 
