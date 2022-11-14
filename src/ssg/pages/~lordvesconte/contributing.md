@@ -125,6 +125,8 @@ Added to this, comments in code should be added in every function, explaining wh
 ## websites
 Websites should be made using pure HTML+CSS, I highly recommend against using Javascript, specially Javascript frameworks like React. If you want to make a website for a project and you want to add JS, please try to minimize your use of JS, and if you're using a framework, **please use** Astro.
 
+Added to this, using Google Fonts is a sin and you should abstain from importing them unless you're loading them locally/from your server.
+
 It doesn't matter where you host your site, but please, do not use Cloudflare, and try to minimize as many imports that you can, people with low-speed connections still exist in 2022, and those who use limited data plans shouldn't have to load 2MB of fonts.
 
 Talking about imports, please refrain from using external elements unless they're lightweight enough (under 200kb), if you're looking for CSS stylesheets for a site, try using one of the following stylesheets (or write your own!):
